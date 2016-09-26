@@ -132,11 +132,6 @@
 <v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr</v>
 <v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr\BLE_1_bless_isr.c</v>
 <v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr\BLE_1_bless_isr.h</v>
-<v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\Clock</v>
-<v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\Clock\Clock.c</v>
-<v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\Clock\Clock.h</v>
-<v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\cy_boot</v>
-<v>BLE Lab 2-000\BLE Lab 2\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
