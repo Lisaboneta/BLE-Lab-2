@@ -3841,7 +3841,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 65
 
 
- 361              	.set CYDEV_CHIP_JTAG_ID, 0x0E04119E
+ 361              	.set CYDEV_CHIP_JTAG_ID, 0x0E09119E
  362              	.set CYDEV_CHIP_MEMBER_3A, 1
  363              	.set CYDEV_CHIP_MEMBER_4A, 3
  364              	.set CYDEV_CHIP_MEMBER_4D, 2
@@ -3915,14 +3915,15 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  429              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
  430              	.set CYIPBLOCK_m0s8csd_VERSION, 1
  431              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
- 432              	.set CYIPBLOCK_m0s8peri_VERSION, 1
- 433              	.set CYIPBLOCK_m0s8scb_VERSION, 2
- 434              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
- 435              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
- 436              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
- 437              	.set CYIPBLOCK_s8pass4al_VERSION, 1
- 438              	.set CYDEV_BOOTLOADER_ENABLE, 0
- 439              	.endif
+ 432              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
+ 433              	.set CYIPBLOCK_m0s8peri_VERSION, 1
+ 434              	.set CYIPBLOCK_m0s8scb_VERSION, 2
+ 435              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
+ 436              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
+ 437              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
+ 438              	.set CYIPBLOCK_s8pass4al_VERSION, 1
+ 439              	.set CYDEV_BOOTLOADER_ENABLE, 0
+ 440              	.endif
   19              	
   20              	
   21              	/*******************************************************************************
@@ -3957,10 +3958,10 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   50              	CyDelayCycles_loop:
   51 0006 0138     	    SUBS r0, r0, #1         /*    1    2   Decrement counter */ 
   52 0008 FDD1     	    BNE CyDelayCycles_loop  /*    3    2   3 CPU cycles (if branche is taken)*/
-  53 000a C046     	    NOP                     /*    1    2    Loop alignment padding */
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 67
 
 
+  53 000a C046     	    NOP                     /*    1    2    Loop alignment padding */
   54 000c C046     	    NOP                     /*    1    2    Loop alignment padding */
   55              	CyDelayCycles_done:
   56 000e C046     	    NOP                     /*    1    2    Loop alignment padding */
@@ -4017,10 +4018,10 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  107              	*  uint8 savedIntrStatus:
  108              	*   Saved interrupt status returned by the CyEnterCriticalSection function.
  109              	*
- 110              	* Return:
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 68
 
 
+ 110              	* Return:
  111              	*  None
  112              	*
  113              	*******************************************************************************/

@@ -1,5 +1,5 @@
 # BLE Lab 2
-# 2016-09-23 16:22:08Z
+# 2016-09-26 15:59:26Z
 
 # IO_6@[IOP=(0)][IoId=(6)] is reserved: SWDDebugEnabled
 dont_use_io iocell 0 6
@@ -9,9 +9,6 @@ dont_use_io iocell 0 7
 dont_use_io iocell 6 0
 # IO_1@[IOP=(6)][IoId=(1)] is reserved: KhzXtalEnabled
 dont_use_io iocell 6 1
-dont_use_location 0 1
-dont_use_location 1 0
-dont_use_location 1 1
 dont_use_location p4lpcompcell -1 -1 0
 dont_use_location p4lpcompcell -1 -1 1
 dont_use_location p4abufcell -1 -1 0

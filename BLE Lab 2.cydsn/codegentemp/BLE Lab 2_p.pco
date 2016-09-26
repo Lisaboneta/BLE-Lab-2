@@ -2,9 +2,6 @@ dont_use_io iocell 0 6
 dont_use_io iocell 0 7
 dont_use_io iocell 6 0
 dont_use_io iocell 6 1
-dont_use_location 0 1
-dont_use_location 1 0
-dont_use_location 1 1
 dont_use_location p4lpcompcell -1 -1 0
 dont_use_location p4lpcompcell -1 -1 1
 dont_use_location p4abufcell -1 -1 0
